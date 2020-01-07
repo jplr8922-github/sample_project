@@ -54,8 +54,3 @@ class DataFetch:
         print(self.data.head(nb))
 
 
-
-test = DataFetch()
-test.connect_to_harvest()
-test.query_harvest()
-test.show_data()
